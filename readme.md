@@ -13,5 +13,5 @@
 
 6. Visuals
 
-7. Authors
-   baruni prabaharan
+7. Authors: baruni prabaharan , Raghavendra Uppilisrinivasan
+
