@@ -1,23 +1,55 @@
-1. Purpose & Overview
+Table of Contents
+1. Overview
+2. Objectives
+3. Techniques & Technologies
+4. Key Findings
+5. Setup Instructions
+6. Visuals
+7. Guiding Questions
+
+
+
+1. Overview
     Identify fraudulent credit card transactions on corporate/personal credit cards as part of the annual company audit. This case study considers the scenario where companies auto approve expenses within certain thresholds. 
     Alternatively, this could be a model used to detect whether a transaction is fraudulent as part of the auto-approval process.
 
     Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
 
-2. Goals & Objectives
-    a. Detect credit card fraud prior to approving the employee reimbursment 
+2. Objectives
+    a. Reduce reimbursement of fraudulent charges before they impact financial statements.
+    b. Accelerate compliance review with automated triaging of suspicious activity.
+    c. Improve audit readiness through consistent, data‑driven fraud detection.
+    
 
 3. Techniques & Technologies
-    TBD - Week 2 - See Guiding Questions
+    We have conducted exploratory data analysis & data scaling thorugh the following exercises:
+    A. General data visualization 
+    B. Missing Value Analysis
+    C. Variable Statistical Summaries
+    D. Class Imbalance Analysis
+    E. Variable Distributions
+
+    We have build 3 machine learning models:
+    A. KNN Model
+    B. Logistic Regression
+    C. Random Forest Classifier 
 
 4. Key Findings 
-    TBD - Week 2 
+    a. The dataset is highly imbalanced, with very few fraud cases.
+    b. Class imbalance makes fraud detection difficult.
+    c. High risk of false negatives (missing fraud cases).
+    d. Accuracy alone is not sufficient; recall and precision are more important.
+    
 
 5. Setup Instructions
-    TBD - Week 2 
+    1. Download the applicable dataset:  https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
+    2. Download main code notebook located here:
+    3. Update dataset path within above notebook prior to executing code.
 
 6. Visuals
-    TBD - Week 2 
+   
+   ![alt text](image.png)
+   ![alt text](image-1.png)
 
 7. Guiding Questions
 a. Who is the intended audience for your project?
@@ -57,8 +89,11 @@ g. Are there any specific libraries or frameworks that are well-suited to your p
 i. How can you tailor the visualizations to effectively communicate with your audience?
     1. Match complexity to audience expertise. In this case we will be presenting to executives as such, high‑level summaries, KPIs, trends, simple visuals would be most appropriate. 
     2. Fccus on what's important to the audience i.e. what decision will this visual help them make
-    3. 
+    
 j. What type of visualization best suits your data and objectives (e.g., bar chart, scatter plot, heatmap)?
+    1. Transaction Time Distribution Histograms; best for identifying temporal patterns in fraud
+    2. Correlation Heatmap: helps explain why random forest outperforms simpler models and allow to revel signal density despite the dataset having PCA applied
+    3. Feature importance visualization; bar chat to demonstrate which features contribute the most to predicting fraud for leaderships understanding.
 
 k. How can you iterate on your design to address feedback and make improvements?
     1. Start with a rough draft
@@ -83,8 +118,9 @@ m. How can you ensure that your visualization accurately represents the underlyi
     v.   Label clearly and completely
 
 n. Are there any privacy concerns or sensitive information that need to be addressed in your visualization?
-    Given the objective of the model is to identify corporate credit card fraud, employee data would not qualify as Personal Information, therefore there are no privacy concerns.
-    It is unlikely there is sensitive data in the above scenario, except for if there are occurences of fraud. Corporate credit cards should only be used for authorized work expenses. However, depending on the employee and the company, for example a CEO at a crown corporation, any data on spending habits, could be potentially sensitive if leaked to the public and cause reputational damage. 
+    Yes employee data (first name, last name, ) is involved as such privacy implications must be considered. In this case it is possible ot limit the ingestion of employee data to only include their employee ID. When buliding out the model in production, there may be a need to join the data with addiotnal sources, cleanse hte data of perosnal informatoin prior to applying the model. 
+
+    It is unlikely there is sensitive data in the above scenario, except for if there are occurences of fraud. Corporate credit cards should only be used for authorized work expenses. However, depending on the employee and the company, for example a CEO at a crown corporation, any data on spending habits, could potentially be sensitive if leaked to the public and cause reputational damage. 
     As such, employee names will not be included in visuals, and specific job titles (especially senior or executive leadership) maybe summarized/categorized at a higher level for larger audiences.
 
 
