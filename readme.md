@@ -8,7 +8,6 @@ Table of Contents
 7. Course Reflection Videos
 8. Guiding Questions
 
-
 Authors: 
 Jyoti Shukla, Raghavendra Uppilisrinivasan, Purushottam Kumar, Haroon Azhar Khan, Baruni Prabaharan
 
@@ -46,8 +45,8 @@ Jyoti Shukla, Raghavendra Uppilisrinivasan, Purushottam Kumar, Haroon Azhar Khan
 
 5. Setup Instructions
     1. Download the applicable dataset:  https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
-    2. Execute exploratory data analysis: https://github.com/HaroonAzhar/DS-Finance1/blob/main/EDA_creditcard.ipynb. Do not forget to update the dataset path within this notebook prior to executing code.
-    3. Execute main code notebook located here:https://github.com/HaroonAzhar/DS-Finance1/blob/main/Random_forest_model.ipynb. Do not forget to update the dataset path within this notebook prior to executing code.
+    2. Execute exploratory data analysis: https://github.com/HaroonAzhar/DS-Finance1/blob/main/Final%20Output/EDA_creditcard.ipynb. Do not forget to update the dataset path within this notebook prior to executing code.
+    3. Execute main code notebook located here:https://github.com/HaroonAzhar/DS-Finance1/blob/main/Final%20Output/Random_forest_model.ipynb. Do not forget to update the dataset path (for the output from step 2) within this notebook prior to executing code.
    
 6. Visuals
    Sample visualizations within the 2 main notebooks above:
