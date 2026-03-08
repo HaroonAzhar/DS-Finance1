@@ -5,9 +5,8 @@ Table of Contents
 4. Key Findings
 5. Setup Instructions
 6. Visuals
-7. Guiding Questions
-
-
+7. Course Reflection Videos
+8. Guiding Questions
 
 1. Overview
     Identify fraudulent credit card transactions on corporate/personal credit cards as part of the annual company audit. This case study considers the scenario where companies auto approve expenses within certain thresholds. 
@@ -51,7 +50,11 @@ Table of Contents
    ![alt text](image.png)
    ![alt text](image-1.png)
 
-7. Guiding Questions
+
+7. Course Reflection Videos
+    https://github.com/HaroonAzhar/DS-Finance1/tree/main/Course%20Reflection%20Videos
+
+8. Guiding Questions
 a. Who is the intended audience for your project?
     Corporate Finance & Internal Audit departments
 
