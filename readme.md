@@ -6,7 +6,8 @@ Table of Contents
 5. Setup Instructions
 6. Visuals
 7. Course Reflection Videos
-8. Guiding Questions
+8. Repository Structure
+9. Guiding Questions
 
 Authors: 
 Jyoti Shukla, Raghavendra Uppilisrinivasan, Purushottam Kumar, Haroon Azhar Khan, Baruni Prabaharan
@@ -61,7 +62,14 @@ Jyoti Shukla, Raghavendra Uppilisrinivasan, Purushottam Kumar, Haroon Azhar Khan
 7. Course Reflection Videos
     https://github.com/HaroonAzhar/DS-Finance1/tree/main/Course%20Reflection%20Videos
 
-8. Guiding Questions
+8. Repository Structure
+    Planning: Contains project planning documentation
+    Test Models: Contains all code related to various models tested and EDA performed. Broken down by author.
+    Final Output: Contains final code selected for the project showcase
+    Presentation: Contains project showcase slides
+    Course Reflection Videos: Contains team videos reflecting on the course outcomes
+
+9. Guiding Questions
 a. Who is the intended audience for your project?
     Corporate Finance & Internal Audit departments
 
